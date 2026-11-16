@@ -2,7 +2,7 @@ print("1. Format a Name")
 print("2. Format a Title")
 print("3. Format a List")
 print("4. Process Numbers")
-choice = input("what is your choice?:")
+choice = input("enter your choice(1,2,3, or 4):")
 string_to_process = input("enter the string to process:")
 if choice == "1":
     stripped = string_to_process.strip()
